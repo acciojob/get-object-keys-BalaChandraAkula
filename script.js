@@ -2,6 +2,6 @@
 student = {
 	name : "myName";
 	getKeys(){
-		return [this.name];
+		return Object.keys(this);
 	}
 }
